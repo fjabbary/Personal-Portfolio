@@ -1,0 +1,51 @@
+#about {
+  background-color: #eee;
+  padding: 60px;
+}
+
+#about h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 30px;
+}
+
+#about h1,
+#about h2 {
+  text-transform: uppercase;
+}
+
+#about h2 {
+  text-decoration: underline;
+}
+
+#about ul li {
+  margin: 10px 0;
+}
+
+/* Customer color for bullet points */
+#about ul {
+  list-style: none; 
+  padding-left: 0; 
+  list-style: none;
+}
+
+#about li {
+  position: relative; 
+  padding-left: 20px; 
+}
+
+#about li::before {
+  content: '\2022'; 
+  position: absolute;
+  left: 0;
+  top: -8px;
+  color: orange;
+  font-size: 2em; 
+}
+
+.custom-hr {
+  border: 0;
+  height: 1px;
+  background: linear-gradient(to right, orangered, orange);
+  margin: 20px 0;
+}
