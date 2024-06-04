@@ -1,24 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Me</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   <link rel="stylesheet" href="../static/styles/styles.css">
 </head>
+
 <body>
   <header>
     <nav>
-      <a href="./index.html">
+      <a href="../index.html">
         <h1>Farzin Portfolio</h1>
       </a>
       <ul>
         <li><a href="./about.html">About</a></li>
         <li><a href="./resume.html">Resume/CV</a></li>
         <li><a href="./projects.html">Projects</a></li>
-        <li><a href="./contact.html">Contact Page</a></li>
+        <li><a href="./contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
+
+  <section id="contact">
+    <div class="contact-form-container">
+      <form class="contact-form">
+        <h2>Contact Us</h2>
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <div class="socials">
+      <ul>
+        <li><a href="https://github.com/fjabbary" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+        <li><a href="mailto:farzin.jabbary@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/farzin-jabbary/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+      </ul>
+    </div>
+  </section>
 </body>
+
 </html>
